@@ -1,17 +1,21 @@
-
+import React from 'react';
 import './App.css';
-import React, { useEffect, useState } from 'react';
-import Time from './components/Time'
-
-import {BrowserRouter as Router, Switch,Route,Link} from 'react-router-dom';
+import Topbar from './components/topbar/Topbar';
+import FirstElement from './components/first/FirstElement';
+import SecondElement from './components/second/SecondElement';
+import ThirdElement from './components/third/ThirdElement';
+import FourthElement from './components/fourth/FourthElement';
 
 function App() {
   
   return (
-    <>
-    <Time />
-    </>
-    
+      <div className="App">
+        <Topbar />
+        <FirstElement />
+        <SecondElement />
+        <ThirdElement />
+        <FourthElement />
+      </div>
   );
 }
 

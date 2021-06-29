@@ -1,0 +1,33 @@
+.mainContainer{
+    margin-top: 200px;
+    display: flex;
+}
+.box1{
+    width: 450px;
+    height: 400px;
+    color: white;
+    margin-left: 100px;
+    padding: 10px
+}
+.heading{
+    font-size: 45px;
+}
+.content{
+    font-size: 20px;
+}
+.btn{
+    height: 60px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    font-size: large;
+    margin: 10px;
+}
+.submit{
+    background-color: rgb(87, 87, 240);
+    color: rgb(255, 255, 255);
+}
+.img{
+    background-color: rgb(0, 0, 0);
+    margin-left: 100px;
+}
